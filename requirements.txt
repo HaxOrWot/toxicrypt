@@ -1,0 +1,9 @@
+argparse
+requests
+urllib3
+pathlib
+cryptography
+flask
+flask_cors
+sqlite3
+
